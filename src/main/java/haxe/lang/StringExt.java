@@ -3,6 +3,8 @@ package haxe.lang;
 
 import haxe.root.Array;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
 public class StringExt implements Serializable
 {

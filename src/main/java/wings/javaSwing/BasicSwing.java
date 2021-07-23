@@ -3,6 +3,8 @@ package wings.javaSwing;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
 public class BasicSwing extends javax.swing.JFrame implements haxe.lang.IHxObject, java.awt.event.MouseMotionListener, java.awt.event.MouseListener, java.awt.event.KeyListener, Serializable
 {

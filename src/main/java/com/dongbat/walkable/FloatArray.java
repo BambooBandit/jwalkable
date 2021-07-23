@@ -19,6 +19,7 @@
  */
 package com.dongbat.walkable;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -30,7 +31,8 @@ import java.util.Random;
  *
  * @author Nathan Sweet
  */
-public class FloatArray implements Serializable{
+public class FloatArray implements Serializable
+{
 
   private static final long serialVersionUID = 71L;
 

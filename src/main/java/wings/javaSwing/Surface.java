@@ -3,6 +3,8 @@ package wings.javaSwing;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
 public class Surface extends javax.swing.JPanel implements haxe.lang.IHxObject, Serializable
 {

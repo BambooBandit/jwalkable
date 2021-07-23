@@ -30,7 +30,9 @@ import java.util.Random;
  *
  * @author Nathan Sweet
  */
-public class FloatArray {
+public class FloatArray implements Serializable{
+
+  private static final long serialVersionUID = 71L;
 
   public float[] items;
   public int size;

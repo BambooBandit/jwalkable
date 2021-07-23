@@ -3,9 +3,13 @@ package wings.javaSwing;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class SimpleDrawingContext extends haxe.lang.HxObject implements wings.core.ISimpleDrawingContext
+public class SimpleDrawingContext extends haxe.lang.HxObject implements wings.core.ISimpleDrawingContext, Serializable
 {
+	private static final long serialVersionUID = 58L;
+
 	public SimpleDrawingContext(haxe.lang.EmptyObject empty)
 	{
 	}

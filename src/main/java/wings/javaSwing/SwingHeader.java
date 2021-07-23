@@ -3,8 +3,10 @@ package wings.javaSwing;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class SwingHeader extends haxe.lang.HxObject
+public class SwingHeader extends haxe.lang.HxObject implements Serializable
 {
 	static
 	{
@@ -27,7 +29,10 @@ public class SwingHeader extends haxe.lang.HxObject
 		}
 		
 	}
-	
+
+	private static final long serialVersionUID = 59L;
+
+
 	public SwingHeader(haxe.lang.EmptyObject empty)
 	{
 	}

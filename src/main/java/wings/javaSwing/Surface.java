@@ -4,8 +4,9 @@ package wings.javaSwing;
 import haxe.root.*;
 
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class Surface extends javax.swing.JPanel implements haxe.lang.IHxObject
+public class Surface extends javax.swing.JPanel implements haxe.lang.IHxObject, Serializable
 {
+	private static final long serialVersionUID = 61L;
 	public Surface(haxe.lang.EmptyObject empty)
 	{
 		//line 8 "/Users/tao/projects/hxDaedalus/src/wings/javaSwing/Surface.hx"

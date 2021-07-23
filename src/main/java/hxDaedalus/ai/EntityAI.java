@@ -3,13 +3,17 @@ package hxDaedalus.ai;
 
 import hxDaedalus.data.Obstacle;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value = {"rawtypes", "unchecked"})
-public class EntityAI extends haxe.lang.HxObject {
+public class EntityAI extends haxe.lang.HxObject implements Serializable
+{
 
   static {
     //line 25 "/Users/tao/projects/hxDaedalus/src/hxDaedalus/ai/EntityAI.hx"
     hxDaedalus.ai.EntityAI.NUM_SEGMENTS = 6;
   }
+  private static final long serialVersionUID = 3L;
 
   public EntityAI(haxe.lang.EmptyObject empty) {
   }

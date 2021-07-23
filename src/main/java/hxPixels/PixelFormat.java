@@ -3,9 +3,13 @@ package hxPixels;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class PixelFormat extends haxe.lang.HxObject
+public class PixelFormat extends haxe.lang.HxObject implements Serializable
 {
+	private static final long serialVersionUID = 55L;
+
 	static
 	{
 		//line 482 "/Users/tao/projects/hxDaedalus/src/hxPixels/Pixels.hx"

@@ -67,6 +67,16 @@ public class PathHelper {
     this.scale = scale;
   }
 
+  public Obstacle addObstacle(Obstacle obstacle)
+  {
+    if(obstacles.contains(obstacle))
+      return null;
+
+    mesh.insertObject(obstacle);
+    obstacles.add(obstacle);
+    return obstacle;
+  }
+
   public Obstacle addPolyline(float[] vertices) {
     return addPolyline(vertices, 0, 0);
   }

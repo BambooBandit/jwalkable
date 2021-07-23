@@ -196,10 +196,12 @@ public class PathHelper {
    * Removes all obstacles
    */
   public void clearObstacles(){
-    for (Obstacle obstacle : obstacles){
+    for (int i = 0; i < obstacles.size(); i ++){
+
+      Obstacle obstacle = obstacles.get(i);
       removeObstacle(obstacle);
+      i --;
     }
-    obstacles.clear();
   }
 
   private void doFindPath(float fromX, float fromY, float toX, float toY, float radius) {

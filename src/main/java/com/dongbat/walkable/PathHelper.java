@@ -30,12 +30,15 @@ import java.util.List;
  * @author tao
  */
 public class PathHelper {
-  private final Mesh mesh;
-  private final EntityAI entity;
-  private final PathFinder pathFinder;
-  private final Array path;
-  private final List<Obstacle> obstacles = new ArrayList<Obstacle>();
+  private Mesh mesh;
+  private EntityAI entity;
+  private PathFinder pathFinder;
+  private Array path;
+  private List<Obstacle> obstacles = new ArrayList<Obstacle>();
   private int scale;
+
+  /** For serializing. */
+  private PathHelper() { }
 
   /**
    * Constructs a PathFinder with the given world width and world height

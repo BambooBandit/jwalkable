@@ -22,6 +22,7 @@ import hxDaedalus.data.Mesh;
 import hxDaedalus.data.Obstacle;
 import hxDaedalus.factories.RectMesh;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,7 +30,9 @@ import java.util.List;
  * Wrapper for hxDaedalus
  * @author tao
  */
-public class PathHelper {
+public class PathHelper implements Serializable
+{
+  private static final long serialVersionUID = 1L;
   private Mesh mesh;
   private EntityAI entity;
   private PathFinder pathFinder;

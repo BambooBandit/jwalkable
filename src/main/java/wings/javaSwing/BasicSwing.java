@@ -3,9 +3,12 @@ package wings.javaSwing;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class BasicSwing extends javax.swing.JFrame implements haxe.lang.IHxObject, java.awt.event.MouseMotionListener, java.awt.event.MouseListener, java.awt.event.KeyListener
+public class BasicSwing extends javax.swing.JFrame implements haxe.lang.IHxObject, java.awt.event.MouseMotionListener, java.awt.event.MouseListener, java.awt.event.KeyListener, Serializable
 {
+	private static final long serialVersionUID = 60L;
 	public BasicSwing(haxe.lang.EmptyObject empty)
 	{
 		//line 18 "/Users/tao/projects/hxDaedalus/src/wings/javaSwing/BasicSwing.hx"

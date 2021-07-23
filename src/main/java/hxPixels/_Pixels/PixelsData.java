@@ -3,15 +3,18 @@ package hxPixels._Pixels;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class PixelsData extends haxe.lang.HxObject
+public class PixelsData extends haxe.lang.HxObject implements Serializable
 {
 	static
 	{
 		//line 430 "/Users/tao/projects/hxDaedalus/src/hxPixels/Pixels.hx"
 		hxPixels._Pixels.PixelsData.BYTES_PER_PIXEL = 4;
 	}
-	
+	private static final long serialVersionUID = 56L;
+
 	public PixelsData(haxe.lang.EmptyObject empty)
 	{
 	}

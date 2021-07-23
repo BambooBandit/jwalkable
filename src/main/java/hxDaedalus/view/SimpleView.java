@@ -3,9 +3,13 @@ package hxDaedalus.view;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class SimpleView extends haxe.lang.HxObject
+public class SimpleView extends haxe.lang.HxObject implements Serializable
 {
+	private static final long serialVersionUID = 54L;
+
 	public SimpleView(haxe.lang.EmptyObject empty)
 	{
 	}

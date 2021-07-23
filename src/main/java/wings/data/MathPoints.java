@@ -3,9 +3,13 @@ package wings.data;
 
 import haxe.root.*;
 
+import java.io.Serializable;
+
 @SuppressWarnings(value={"rawtypes", "unchecked"})
-public class MathPoints extends haxe.lang.HxObject
+public class MathPoints extends haxe.lang.HxObject implements Serializable
 {
+	private static final long serialVersionUID = 57L;
+
 	public MathPoints(haxe.lang.EmptyObject empty)
 	{
 	}
